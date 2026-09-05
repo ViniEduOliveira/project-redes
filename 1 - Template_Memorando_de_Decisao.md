@@ -86,7 +86,15 @@ Eu recomendo a Api pois é mais fácil manipular os dados e gerar dados novos co
 
 <!-- Por que essa opção vence a outra, com base nas evidências das seções 2, 3 e 4 — não em preferência pessoal. -->
 
-[Escreva aqui]
+Decidimos utilizar a API do RIPE Atlas porque, por mais que apresente uma complexidade inicial maior, ela oferece mais controle para a coleta dos dados necessários do projeto.
+
+Diferente do dataset CAIDA Ark, no qual os dados já foram coletados e dependemos das medições realizadas pelo projeto, porém com o RIPE Atlas podemos definir as características das nossas próprias medições, por exemplo, como sondas utilizadas e os destinos que serão testados.
+
+Além disso, os resultados das medições podem ser consultados por meio da API em formato JSON, o que facilita a extração e organização dos dados que serão utilizados no nosso pipeline.
+
+A possibilidade de realizar novas medições também permite adaptar a coleta caso os dados obtidos inicialmente não sejam suficientes para as próximas etapas.
+
+Considerando principalmente o maior controle sobre a coleta, a flexibilidade das medições e a facilidade de integração dos resultados com o pipeline, decidimos utilizar a API do RIPE Atlas como fonte de dados do projeto.
 
 ## 7. Riscos e limitações
 
@@ -152,9 +160,9 @@ Referências Bibliográficas:
 `[]` 
 `[]`
 
-### Integrante 5 — `[Escreva nome completo do aluno ]`
-- **O que fez nesta etapa:** `[]`
-- **Tempo dedicado (aprox.):** `[ex.: 3h30]`
+### Integrante 5 — `[Heitor Estrela de Andrade]`
+- **O que fez nesta etapa:** `[Nesta parte do projeto realizei a comparação entre o dataset real que usamos como base nas pesquisas já feitas pelo grupo e pesquisas que fiz para saber com exatidão a data dos dados da CAIDA e os países de origem dos dados além da origem dos dados da API da RIPE Atlas recomendada pela nossa professora. Também fui responsável por fazer o primeiro rascunho desse memorando, já com as primeiras informações conseguidas no dia 05 de setembro de 2026 e formatação básica para enviar para o GitHub]`
+- **Tempo dedicado (aprox.):** `[ex.: 1h20]`
 - **Evidência da contribuição** *(print de conversa, rascunho, e-mail, documento compartilhado etc.)*: 
 `[]` 
 `[]`
