@@ -152,7 +152,7 @@ finalizei minha parte e mandei no nosso grupo do WhatsApp criado para esse proje
 
 **O arquivo abaixo é um gif, a cada 4 segundos ele muda a evidência**
 
-![alt text](gifGiu-1.gif)
+![GIF Giu](prints_ativ.1/gifGiu.gif)
 
 ### Integrante 2 — Vinicius Eduardo Santos De Oliveira
 - **O que fez nesta etapa:** 
@@ -165,7 +165,7 @@ Nesta etapa também, assumi a responsabilidade de unir as pesquisas de todos den
 
 **O arquivo abaixo é um gif, a cada 4 segundos ele muda a evidência**
 
-![alt text](gifVini-1.gif)
+![GIF Vini](prints_ativ.1/gifVini.gif)
 
 
 ### Integrante 3 — Heitor Estrela De Andrade
@@ -177,7 +177,7 @@ Nesta parte do projeto realizei a comparação entre o dataset real que usamos c
 
 **O arquivo abaixo é um gif, a cada 4 segundos ele muda a evidência**
 
-![alt text](gifHeitor-1.gif)
+![GIF Heitor](prints_ativ.1/gifHeitor.gif)
 
 ### Integrante 4 — Gabriel Romão Da Silva 
 - **O que fez nesta etapa:** 
@@ -188,7 +188,7 @@ Fiquei responsável por levantar as informações da Opção A (dataset real). C
 
 **O arquivo abaixo é um gif, a cada 4 segundos ele muda a evidência**
 
-![alt text](gifBiel-1.gif)
+![GIF Biel](prints_ativ.1/gifBiel.gif)
 
 ### Integrante 5 — Miguel Augusto da Costa Souza
 - **O que fez nesta etapa:** 
@@ -199,7 +199,7 @@ Nessa etapa do projeto, eu pesquisei alternativas de datasets que possuíssem os
 
 **O arquivo abaixo é um gif, a cada 4 segundos ele muda a evidência**
 
-![alt text](gitMiguel-1.gif)
+![GIF Miguel](prints_ativ.1/gitMiguel.gif)
 
 ---
 
