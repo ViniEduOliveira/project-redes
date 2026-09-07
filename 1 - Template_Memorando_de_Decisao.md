@@ -6,7 +6,7 @@
 | Curso / Disciplina | Ciência da Computação / Estrutura de dados II
 | Projeto integrador | Estrutura de Dados II , Redes de Computadores , Análise e Projeto de Sistemas
 | Orientador(a) | Andrea Sakai , Denise De Souza , Luis De Oliveira  
-| Data de entrega desta etapa | 07/09/2026 
+| Data de entrega desta etapa | 08s/09/2026 
 | Integrantes do grupo | Gabriel Romão , Giulia Ayumi , Heitor Estrela , Miguel Souza , Vinicius Oliveira 
 
 ---
