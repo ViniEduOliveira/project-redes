@@ -1,5 +1,6 @@
 # Memorando de Decisão — Fonte de Dados do Projeto
 
+[Repositório do GitHub](https://github.com/ViniEduOliveira/project-redes/blob/main/Memorando_de_Decisao_grupo4.md)
 
 | Campo | Informação |
 |---|---|
@@ -224,3 +225,5 @@ RIPE NCC. RIPE Atlas Documentation. Amsterdã: RIPE NCC, [s.d.]. Disponível em:
 RIPE NCC. RIPE Atlas. [S.l.: s.n.], 13 jan. 2017. 1 vídeo (2 min 34 s). Publicado pelo canal RIPE NCC. Disponível em: https://www.youtube.com/watch?v=Z3SW2vO8qW0. Acesso em: 5 set. 2026.
 
 SAKAI, Andrea Ono. Aula 5 - Fonte de dados do projeto. Mogi das Cruzes: Cruzeiro do Sul Virtual, 2026. Arquivo PDF. Disponível em: https://bb.cruzeirodosulvirtual.com.br/ultra/courses/_1166934_1/file/_23688163_1?courseId=_1166934_1vo. Acesso em: 5 set. 2026.
+
+[Repositório do GitHub](https://github.com/ViniEduOliveira/project-redes/blob/main/Memorando_de_Decisao_grupo4.md)
