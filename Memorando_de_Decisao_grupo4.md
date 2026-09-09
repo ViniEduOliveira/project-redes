@@ -38,6 +38,7 @@ objetivo é escolher entre pegar uma base de dados que já tá pronta na interne
     Pesquisando sobre datasets reais, encontramos o projeto Ark do CAIDA, que é bem conhecido nessa área de redes. Eles disparam pings pro mundo inteiro e guardam isso
  num banco de dados gigante. A parte boa é que já tem muito dado coletado e a gente não precisa configurar nenhuma infraestrutura de teste. O lado ruim é que os arquivos num formato próprio deles (.warts), então a gente vai ter o trabalho extra de arrumar um script pra converter isso pra CSV antes de jogar no nosso pipeline. Além disso, não dá pra escolher os alvos, a gente fica dependente das rotas e IPs que eles mesmos escolheram testar. (Fonte: Documentação do dataset Ark no site do CAIDA).
     
+    
 
 ## 3. Opção B — API do RIPE Atlas
 
