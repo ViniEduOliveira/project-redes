@@ -123,7 +123,7 @@ API -> API: Valida esquema e tipos do JSON
 API -> Model: Executa predicao(vetorX)
 Model --> API: Retorna classe predita (OK / RISCO / FALHA) em t + 12 min
 API --> Client: Resposta HTTP 200 OK (JSON com classe e confiança)
-@endl
+@enduml
 ```
 
 ![Diagrama de Sequência](./diagramas/diagrama_sequencia.png)
