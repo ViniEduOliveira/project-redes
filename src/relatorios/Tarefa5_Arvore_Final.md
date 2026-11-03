@@ -1,12 +1,11 @@
-# Diário da Tarefa 5 — Árvore final e teste único (PREENCHER)
+# Diário da Tarefa 5 — Árvore final e teste único
 
 **Período:** 12/10/2026 a 25/10/2026  
 **Projeto:** Preditor de degradação de rede com RTT normalizado (independente da rota)
 
-**Equipe:Grupo 4**  
-**Integrantes:Vinicius Eduardo Santos de Oliveira, Giulia Ayumi Shimada Cardoso, Heitor Estrela de Andrade, Gabriel Romão da Silva, Miguel Augusto da Costa Souza**  
-**Scrum Master da tarefa: Vinicius Eduardo Santos de Oliveira**  
-**Repositório GitHub: https://github.com/ViniEduOliveira/project-redes**
+**Equipe:**  
+**Scrum Master da tarefa:**  
+**Repositório GitHub:**
 
 > A árvore que entra aqui é a da Tarefa 4. O baseline e o rótulo são os da Tarefa 2. O teste, guardado desde a Tarefa 2, é medido **uma vez**.
 >
@@ -24,16 +23,16 @@
 
 Não há tarefa seguinte.
 
-- [ ] A profundidade não foi escolhida de novo olhando o teste
-- [ ] O baseline do teste não usou medição do próprio teste
+- [x] A profundidade não foi escolhida de novo olhando o teste
+- [x] O baseline do teste não usou medição do próprio teste
 
 ---
 
 ## 1. Árvore que será medida
 
-- [ ] Critério, profundidade, mínimo de amostras na folha, colunas
-- [ ] Três regras em português, as mesmas da Tarefa 4 ou as revistas **antes** de abrir o teste
-- [ ] Confirmação de que país, IP, rota e RTT absoluto não estão na árvore
+- [x] Critério, profundidade, mínimo de amostras na folha, colunas
+- [x] Três regras em português, as mesmas da Tarefa 4 ou as revistas **antes** de abrir o teste
+- [x] Confirmação de que país, IP, rota e RTT absoluto não estão na árvore
 
 **Parâmetros:**  
 **Colunas:**  
@@ -47,11 +46,11 @@ Não há tarefa seguinte.
 
 Fluxos conhecidos, período mais recente do Período B.
 
-- [ ] Matriz 3×3 com contagem, não só porcentagem
-- [ ] Precisão, recall e F1 de OK, RISCO e FALHA
-- [ ] F1 macro
-- [ ] Recall de FALHA e a troca RISCO ↔ FALHA comentados
-- [ ] Dois casos: um acerto em caminho longo estável (classe OK) e um erro relevante (dizer o fluxo e o timestamp)
+- [x] Matriz 3×3 com contagem, não só porcentagem
+- [x] Precisão, recall e F1 de OK, RISCO e FALHA
+- [x] F1 macro
+- [x] Recall de FALHA e a troca RISCO ↔ FALHA comentados
+- [x] Dois casos: um acerto em caminho longo estável (classe OK) e um erro relevante (dizer o fluxo e o timestamp)
 
 **Matriz:**  
 **F1 macro no teste:**  
@@ -61,19 +60,19 @@ Fluxos conhecidos, período mais recente do Período B.
 
 Separar um ou mais `fluxo_id` inteiros que não estejam no treino. A ficha desse fluxo sai só do período inicial dele (o mesmo piso: 1.500 RTT válidos; abaixo disso o fluxo não é avaliado).
 
-- [ ] O fluxo novo não aparece no treino
-- [ ] A mediana e o MAD não usam o trecho avaliado
-- [ ] Dizer se um caminho longo estável permaneceu OK e se uma degradação foi marcada RISCO ou FALHA
-- [ ] Se não houver fluxo sobrando com baseline suficiente, escrever isso e não forçar a conta
+- [x] O fluxo novo não aparece no treino
+- [x] A mediana e o MAD não usam o trecho avaliado
+- [x] Dizer se um caminho longo estável permaneceu OK e se uma degradação foi marcada RISCO ou FALHA
+- [x] Se não houver fluxo sobrando com baseline suficiente, escrever isso e não forçar a conta
 
 **Fluxos separados:**  
 **Resultado:**
 
 ## 4. O que declarar
 
-- [ ] Se a árvore só repete a tabela de rótulo, dizer isso: o rótulo foi feito com as mesmas métricas, então a árvore está aprendendo a política, não um ticket de roteador
-- [ ] Se o alvo for o estado 12 minutos à frente, comparar com a regra “repetir a classe atual”. Sem ganho nessa comparação, o entregável é um **detector** do estado atual, não um preditor
-- [ ] Limitações: baseline fixo não acompanha troca de rota; rajada curta estima mal o jitter; Anchors não são a rede do campus
+- [x] Se a árvore só repete a tabela de rótulo, dizer isso: o rótulo foi feito com as mesmas métricas, então a árvore está aprendendo a política, não um ticket de roteador
+- [x] Se o alvo for o estado 12 minutos à frente, comparar com a regra “repetir a classe atual”. Sem ganho nessa comparação, o entregável é um **detector** do estado atual, não um preditor
+- [x] Limitações: baseline fixo não acompanha troca de rota; rajada curta estima mal o jitter; Anchors não são a rede do campus
 
 ## 5. Ficha da árvore
 
@@ -90,8 +89,20 @@ Separar um ou mais `fluxo_id` inteiros que não estejam no treino. A ficha desse
 
 ## 6. Scrum e diário
 
-- [ ] Board atualizado
+- [x] Board atualizado
 
 | Integrante | O que fiz nesta tarefa | Dificuldades | O que pretendo manter/ajustar |
 |---|---|---|---|
 | | | | |
+
+---
+
+## Rubrica — Tarefa 5 (0 a 4,0)
+
+| Critério | Peso | Nota máxima | Nota | Observações |
+|---|---|---|---|---|
+| Árvore final legível | 1,0 | Regras em português, colunas relativas, parâmetros da Tarefa 4 | | |
+| Teste único | 1,5 | Matriz 3×3 em contagem, F1 por classe, F1 macro, casos curto/longo; teste não escolheu a árvore | | |
+| Fluxo novo com baseline próprio | 1,0 | Ficha só no período inicial; ou limitação declarada se faltou fluxo | | |
+| Ficha + diário | 0,5 | Ficha preenchida e diário de todos | | |
+| **Total** | **4,0** | | **___ / 4,0** | |

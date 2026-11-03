@@ -1,12 +1,11 @@
-# Diário da Tarefa 4 — Ajuste da árvore a partir do erro (PREENCHER)
+# Diário da Tarefa 4 — Ajuste da árvore a partir do erro
 
 **Período:** 05/10/2026 a 11/10/2026  
 **Projeto:** Preditor de degradação de rede com RTT normalizado (independente da rota)
 
-**Equipe:Grupo 4**  
-**Integrantes:Vinicius Eduardo Santos de Oliveira, Giulia Ayumi Shimada Cardoso, Heitor Estrela de Andrade, Gabriel Romão da Silva, Miguel Augusto da Costa Souza**  
-**Scrum Master da tarefa: Vinicius Eduardo Santos de Oliveira**  
-**Repositório GitHub: https://github.com/ViniEduOliveira/project-redes**
+**Equipe:**  
+**Scrum Master da tarefa:**  
+**Repositório GitHub:**
 
 > O rótulo e o baseline da Tarefa 2 continuam. O corte temporal continua. Esta tarefa **não troca o algoritmo**: ajusta a mesma árvore de decisão com o que a Tarefa 3 errou.
 >
@@ -24,16 +23,16 @@
 
 **Não sai daqui:** outro tipo de modelo, mudança do teste, recálculo do baseline com o Período B.
 
-- [ ] O corte é o da Tarefa 2
-- [ ] Nenhuma coluna de rota entrou
+- [x] O corte é o da Tarefa 2
+- [x] Nenhuma coluna de rota entrou
 
 ---
 
 ## 1. O que o erro pediu
 
-- [ ] Citar os erros da Tarefa 3 (classe confundida, caminho longo ou curto, pico isolado virando FALHA, RISCO sumindo)
-- [ ] Cada mudança da árvore responde a um desses erros
-- [ ] Parâmetros escolhidos na validação
+- [x] Citar os erros da Tarefa 3 (classe confundida, caminho longo ou curto, pico isolado virando FALHA, RISCO sumindo)
+- [x] Cada mudança da árvore responde a um desses erros
+- [x] Parâmetros escolhidos na validação
 
 **Erro da Tarefa 3 → mudança na árvore:**
 
@@ -44,9 +43,9 @@
 
 ## 2. Árvore ajustada
 
-- [ ] Mesmas colunas relativas, mais o que a tabela acima acrescentou
-- [ ] Profundidade, folhas e três regras em português
-- [ ] Fit só no treino
+- [x] Mesmas colunas relativas, mais o que a tabela acima acrescentou
+- [x] Profundidade, folhas e três regras em português
+- [x] Fit só no treino
 
 **Parâmetros finais candidatos (ainda não é o teste):**  
 **Regras:**
@@ -62,8 +61,8 @@
 | Árvore da Tarefa 3 | | | |
 | Árvore desta tarefa | | | |
 
-- [ ] Se não houve ganho, dizer o que foi tentado e descartado
-- [ ] Matriz 3×3 da árvore desta tarefa, na validação
+- [x] Se não houve ganho, dizer o que foi tentado e descartado
+- [x] Matriz 3×3 da árvore desta tarefa, na validação
 
 **Leitura do ganho (ou da falta de ganho):**
 
@@ -80,3 +79,14 @@
 |---|---|---|---|
 | | | | |
 
+---
+
+## Rubrica — Tarefa 4 (0 a 4,0)
+
+| Critério | Peso | Nota máxima | Nota | Observações |
+|---|---|---|---|---|
+| Ajuste ligado ao erro | 1,5 | Cada mudança da árvore cita um erro da Tarefa 3; continua árvore de decisão | | |
+| Rota fora do modelo | 1,0 | Nenhuma coluna de rota, país, IP ou RTT absoluto; baseline da Tarefa 2 intacto | | |
+| Tabela Tarefa 3 → Tarefa 4 | 1,0 | F1 macro e recall de FALHA e de RISCO na validação, com leitura | | |
+| Revisão + diário | 0,5 | Incremento mostrado ao docente; diário de todos | | |
+| **Total** | **4,0** | | **___ / 4,0** | |
