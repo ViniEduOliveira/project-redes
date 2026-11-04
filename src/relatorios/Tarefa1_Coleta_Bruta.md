@@ -1,4 +1,4 @@
-# Diário da Tarefa 1 — Problema e coleta bruta (sem rótulo) (PREENCHER)
+# Diário da Tarefa 1 — Problema e coleta bruta (sem rótulo)
 
 **Período:** 17/08/2026 a 17/09/2026  
 **Projeto:** Preditor de degradação de rede com RTT normalizado (independente da rota)  
@@ -68,7 +68,7 @@ Regras da coleta:
 - [x] Vários fluxos, com pelo menos um caminho curto e um caminho longo no mesmo período
 - [ ] A diversidade geográfica está documentada e **não** virou classe
 - [x] Dois blocos de tempo contíguos, sem amostra nos dois: Período A (só para o baseline da Tarefa 2) e Período B (medições que serão rotuladas). Referência do projeto: 7 dias + 7 dias a partir de 06/09/2026 04:32 UTC. Outro recorte só vale se os dois blocos continuarem sem sobreposição e o A tiver volume para o mínimo da Tarefa 2
-- [ ] Timeout permanece no arquivo
+- [x] Timeout permanece no arquivo
 - [x] JSON bruto preservado; a tabela tratada não apaga o bruto
 - [ ] Parâmetros (período, probes, destinos) em `config/`, não espalhados no código
 - [ ] HTTP com timeout, releitura em erro transitório e coleta idempotente (rodar de novo não duplica)
@@ -78,27 +78,27 @@ Regras da coleta:
 
 ## 3. Relatório de qualidade — ainda sem classe
 
-- [ ] Registros por `fluxo_id`
+- [x] Registros por `fluxo_id`
 - [x] Início e fim de cada fluxo
-- [ ] Campos ausentes (RTT vazio é ausência, não zero)
-- [ ] Duplicatas
-- [ ] Quantidade de timeouts
-- [ ] RTT e perda descritos (mínimo, mediana, máximo) **sem** dizer OK, RISCO ou FALHA
+- [x] Campos ausentes (RTT vazio é ausência, não zero)
+- [x] Duplicatas
+- [x] Quantidade de timeouts
+- [x] RTT e perda descritos (mínimo, mediana, máximo) **sem** dizer OK, RISCO ou FALHA
 
-**N de registros brutos:**  
-**N de fluxos:**  
-**Caminho curto e caminho longo presentes (quais):**
+**N de registros brutos: 189.192 (7 medições do RIPE Atlas)**  
+**N de fluxos: 35 (7 medições × 5 sondas; 31 sondas distintas, 4 destinos)**  
+**Caminho curto e caminho longo presentes (quais): Curtos: 1013398|217.25.179.62 (1,7 ms), 1013813|150.164.1.222 (4,6 ms) - Longos: 6756|103.96.67.60 (341,0 ms), 6358|150.164.1.222 (333,2 ms)**
 
 ## 4. Scrum
 
 - [x] Product Owner = docente; Scrum Master da tarefa; time de desenvolvimento
 - [x] Board com To do / Doing / Done
-- [ ] Pelo menos 3 histórias: coletar fluxos diversos; preservar o bruto com timeout; separar Período A e Período B sem rotular
+- [x] Pelo menos 3 histórias: coletar fluxos diversos; preservar o bruto com timeout; separar Período A e Período B sem rotular
 
 **Histórias:**  
-1.  
-2.  
-3.  
+1. Como equipe, queremos coletar fluxos diversos (caminhos curtos e longos, vários destinos) para que a árvore aprenda o normal de cada fluxo e não o RTT absoluto.
+2. Como equipe, queremos preservar o bruto com timeouts (JSON + CSV + metadados) para que a Tarefa 2 use exatamente o que veio da API.
+3. Como equipe, queremos ~14 dias contínuos por fluxo, sem rótulo, para que a Tarefa 2 separe Período A (7 dias) e Período B sem sobreposição.
 
 **Link do board:**
 
