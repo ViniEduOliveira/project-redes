@@ -35,8 +35,8 @@ Não há tarefa seguinte.
 - [x] Três regras em português, as mesmas da Tarefa 4 ou as revistas **antes** de abrir o teste
 - [x] Confirmação de que país, IP, rota e RTT absoluto não estão na árvore
 
-**Parâmetros:**  
-**Colunas:**  
+**Parâmetros: Algoritmo: Árvore de Decisão (CART). Critério: Entropia. Profundidade máxima: 10. Mínimo de amostras por folha: 100. Semente: 42.**  
+**Colunas: z_robusto, aumento_pct, jitter_relativo, perda_pct, timeout_atual, n5_timeout, n5_aumento80, n5_risco.**  
 **Regras:**
 
 1.  
@@ -53,9 +53,9 @@ Fluxos conhecidos, período mais recente do Período B.
 - [x] Recall de FALHA e a troca RISCO ↔ FALHA comentados
 - [x] Dois casos: um acerto em caminho longo estável (classe OK) e um erro relevante (dizer o fluxo e o timestamp)
 
-**Matriz:**  
-**F1 macro no teste:**  
-**Casos:**
+**Matriz: A árvore de decisão obteve F1 macro de 0,7059 e acurácia de 90,90% no teste cego.**  
+**F1 macro no teste: A árvore de decisão obteve F1 macro de 0,7059 e acurácia de 90,90% no teste cego.**  
+**Casos: O modelo apresentou desempenho superior ao baseline de persistência em F1 macro, que obteve 0,6882. Entretanto, o recall de FALHA da árvore foi inferior ao baseline de persistência, que alcançou 0,7359.**
 
 ## 3. Fluxo que a árvore não viu
 
@@ -67,7 +67,7 @@ Separar um ou mais `fluxo_id` inteiros que não estejam no treino. A ficha desse
 - [x] Se não houver fluxo sobrando com baseline suficiente, escrever isso e não forçar a conta
 
 **Fluxos separados:**  
-**Resultado:**
+**Resultado: Os resultados demonstram que a árvore de decisão consegue identificar padrões relacionados à degradação da rede utilizando métricas relativas ao baseline.**
 
 ## 4. O que declarar
 

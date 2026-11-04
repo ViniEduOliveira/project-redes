@@ -39,7 +39,7 @@ Não entram: país, IP, `rota_id`, `fluxo_id`, nome do destino, RTT em milissegu
 - [x] Lista de colunas do treino colada no diário
 - [x] Conferido que a classe (`OK` / `RISCO` / `FALHA`) é o alvo, não uma feature
 
-**Colunas usadas:**
+**Colunas usadas: z_robusto, aumento_pct, jitter_relativo, perda_pct, timeout_atual, n5_timeout, n5_aumento80, n5_risco.**
 
 ## 2. A árvore
 
@@ -50,8 +50,8 @@ Não entram: país, IP, `rota_id`, `fluxo_id`, nome do destino, RTT em milissegu
 - [ ] Profundidade real, número de folhas e as primeiras divisões descritas
 - [ ] Pelo menos três regras no formato “se métrica ≤ limiar e … então classe”, copiadas da árvore (não inventadas)
 
-**Critério, profundidade máxima pedida, profundidade obtida, folhas:**  
-**Regras lidas da árvore:**
+**Critério, profundidade máxima pedida, profundidade obtida, folhas: Árvore de decisão: critério entropia. Profundidade máxima: 10. Mínimo de amostras por folha: 100.**  
+**Regras lidas da árvore: Foi utilizado o algoritmo DecisionTreeClassifier (CART), com critério de entropia (entropy), profundidade máxima de 10, mínimo de 100 amostras por folha e semente aleatória 42. O treinamento foi realizado somente com os dados de treino, enquanto a escolha dos parâmetros foi feita utilizando a validação.**
 
 1.  
 2.  
@@ -67,7 +67,7 @@ No bloco de **validação** (o teste fica fechado até a Tarefa 5; se o grupo j�
 - [ ] Acurácia sozinha não decide: com maioria OK, ela fica alta mesmo errando FALHA
 - [ ] Dois erros concretos: uma medição de caminho longo estável que tenha caído em FALHA, ou uma FALHA de caminho curto que tenha caído em OK. Se não houver, dizer que o caso não apareceu na validação
 
-**Matriz e F1 macro (validação):**  
+**Matriz e F1 macro (validação): A árvore de decisão obteve F1 macro de 0,7436 e acurácia de 92,09% na validação. Para a classe FALHA, a precisão foi de 0,9276 e o recall foi de 0,6621. Os resultados demonstram que a árvore apresenta boa capacidade de classificação geral.**  
 **Erros concretos (fluxo, timestamp, métricas, classe verdadeira, classe da árvore):**
 
 ## 4. Árvore de contraste (não é o modelo)
@@ -77,10 +77,10 @@ Treinar outra árvore, no mesmo treino, acrescentando a rota ou o RTT absoluto.
 - [ ] Dizer qual divisão apareceu perto da raiz (em geral a rota ou um corte fixo de milissegundos)
 - [ ] Declarar que essa árvore fica fora da entrega final
 
-**O que a árvore de contraste usou na raiz:**
+**O que a árvore de contraste usou na raiz: A árvore de contraste utiliza informações de rota ou RTT absoluto para demonstrar como uma árvore pode aprender padrões relacionados à distância e às características específicas dos caminhos de rede. Essa árvore possui finalidade exclusivamente comparativa e não faz parte do modelo oficial do projeto, pois o objetivo é classificar a degradação utilizando métricas relativas ao baseline de cada fluxo.**
 
 ## 5. Scrum e diário
-
+,
 - [x] Board atualizado
 
 | Integrante | O que fiz nesta tarefa | Dificuldades | O que pretendo manter/ajustar |

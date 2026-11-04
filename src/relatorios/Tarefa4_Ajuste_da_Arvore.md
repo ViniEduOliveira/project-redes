@@ -35,7 +35,7 @@
 - [x] Cada mudança da árvore responde a um desses erros
 - [x] Parâmetros escolhidos na validação
 
-**Erro da Tarefa 3 → mudança na árvore:**
+**Erro da Tarefa 3 → mudança na árvore: O principal problema identificado foi a dificuldade de reconhecer corretamente todas as situações da classe FALHA. O ajuste dos hiperparâmetros foi realizado por meio de busca na validação, utilizando diferentes combinações de profundidade, critério e quantidade mínima de amostras por folha. A configuração selecionada utilizou entropia, profundidade máxima 10 e mínimo de 100 amostras por folha.**
 
 | Erro observado | Mudança (profundidade, folha, critério ou métrica relativa nova) |
 |---|---|
@@ -48,7 +48,7 @@
 - [x] Profundidade, folhas e três regras em português
 - [x] Fit só no treino
 
-**Parâmetros finais candidatos (ainda não é o teste):**  
+**Parâmetros finais candidatos (ainda não é o teste): Critério: Entropia (entropy). Profundidade máxima: 10. Mínimo de amostras por folha: 100. Semente: 42.**  
 **Regras:**
 
 1.  
@@ -65,7 +65,7 @@
 - [x] Se não houve ganho, dizer o que foi tentado e descartado
 - [x] Matriz 3×3 da árvore desta tarefa, na validação
 
-**Leitura do ganho (ou da falta de ganho):**
+**Leitura do ganho (ou da falta de ganho): A configuração selecionada apresentou F1 macro de 0,7436 na validação. O resultado demonstra um desempenho superior ao baseline de persistência, que obteve F1 macro de 0,7049. Entretanto, o recall da classe FALHA foi de 0,6621, indicando que ainda existem oportunidades de melhoria na identificação de falhas.**
 
 ## 4. Revisão com o docente
 
