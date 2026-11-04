@@ -7,6 +7,7 @@
 Projeto multidisciplinar de Bacharelado em Ciência da Computação integrando as disciplinas de **Redes de Computadores**, **Estrutura de Dados II** e **Análise e Projeto de Sistemas**. Desenvolvido pelo Grupo 4 através da metodologia ágil **Scrum**.
 
 **Página do Projeto (Artigo Web):** https://projeto-redes-swart.vercel.app/
+**Página do Projeto (Youtube):** https://www.youtube.com/watch?v=UV8yu7Ttres
 
 ---
 
