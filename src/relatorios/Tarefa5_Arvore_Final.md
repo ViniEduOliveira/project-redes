@@ -3,9 +3,10 @@
 **Período:** 12/10/2026 a 25/10/2026  
 **Projeto:** Preditor de degradação de rede com RTT normalizado (independente da rota)
 
-**Equipe:**  
-**Scrum Master da tarefa:**  
-**Repositório GitHub:**
+**Equipe:Grupo 4**  
+**Integrantes:Vinicius Eduardo Santos de Oliveira, Giulia Ayumi Shimada Cardoso, Heitor Estrela de Andrade, Gabriel Romão da Silva, Miguel Augusto da Costa Souza**  
+**Scrum Master da tarefa: Vinicius Eduardo Santos de Oliveira**  
+**Repositório GitHub: https://github.com/ViniEduOliveira/project-redes**
 
 > A árvore que entra aqui é a da Tarefa 4. O baseline e o rótulo são os da Tarefa 2. O teste, guardado desde a Tarefa 2, é medido **uma vez**.
 >
@@ -97,12 +98,3 @@ Separar um ou mais `fluxo_id` inteiros que não estejam no treino. A ficha desse
 
 ---
 
-## Rubrica — Tarefa 5 (0 a 4,0)
-
-| Critério | Peso | Nota máxima | Nota | Observações |
-|---|---|---|---|---|
-| Árvore final legível | 1,0 | Regras em português, colunas relativas, parâmetros da Tarefa 4 | | |
-| Teste único | 1,5 | Matriz 3×3 em contagem, F1 por classe, F1 macro, casos curto/longo; teste não escolheu a árvore | | |
-| Fluxo novo com baseline próprio | 1,0 | Ficha só no período inicial; ou limitação declarada se faltou fluxo | | |
-| Ficha + diário | 0,5 | Ficha preenchida e diário de todos | | |
-| **Total** | **4,0** | | **___ / 4,0** | |

@@ -3,9 +3,10 @@
 **Período:** 18/09/2026 a 30/09/2026  
 **Projeto:** Preditor de degradação de rede com RTT normalizado (independente da rota)
 
-**Equipe:**  
-**Scrum Master da tarefa:**  
-**Repositório GitHub:**
+**Equipe:Grupo 4**  
+**Integrantes:Vinicius Eduardo Santos de Oliveira, Giulia Ayumi Shimada Cardoso, Heitor Estrela de Andrade, Gabriel Romão da Silva, Miguel Augusto da Costa Souza**  
+**Scrum Master da tarefa: Vinicius Eduardo Santos de Oliveira**  
+**Repositório GitHub: https://github.com/ViniEduOliveira/project-redes**
 
 > Esta tarefa lê o `data/raw/` da Tarefa 1. Não troca a coleta sem versionar.
 >
@@ -29,7 +30,7 @@
 
 **Não sai daqui:** árvore treinada, profundidade escolhida, acurácia, F1.
 
-- [ ] O notebook lê o bruto da Tarefa 1
+- [x] O notebook lê o bruto da Tarefa 1
 
 ---
 
@@ -39,12 +40,12 @@
 
 `data/raw/` permanece intocado. A auditoria vai para o diário; a tabela de trabalho, para `data/interim/`.
 
-- [ ] Contagem de linhas, fluxos, duplicatas e RTT vazio
-- [ ] Nenhum RTT ausente foi gravado como 0
-- [ ] Período A e Período B não compartilham timestamp do mesmo fluxo
+- [x] Contagem de linhas, fluxos, duplicatas e RTT vazio
+- [x] Nenhum RTT ausente foi gravado como 0
+- [x] Período A e Período B não compartilham timestamp do mesmo fluxo
 
-**N bruto:**  
-**N de fluxos:**  
+**N bruto: 189.192 (A 87.243 + B 101.949)**  
+**N de fluxos: 	35**  
 **Evidências:**
 
 ## 2. Como obter o baseline
@@ -71,12 +72,12 @@ Uma ficha por `fluxo_id`. Só o Período A. O Período B não entra na conta e n
 | `prop_resposta` | medições com RTT válido / medições do período              |
 
 
-- [ ] Ficha conferida em pelo menos um fluxo curto e um fluxo longo (as medianas podem ser muito diferentes; as duas são “normal”)
-- [ ] Lista dos fluxos excluídos e o motivo (contagem abaixo de 1.500)
+- [x] Ficha conferida em pelo menos um fluxo curto e um fluxo longo (as medianas podem ser muito diferentes; as duas são “normal”)
+- [x] Lista dos fluxos excluídos e o motivo (contagem abaixo de 1.500)
 
 **Fluxos com ficha:**  
-**Fluxos excluídos:**  
-**Exemplo auditável (fluxo curto: mediana; fluxo longo: mediana):**
+**Fluxos excluídos: nenhum (mínimo 1.787 RTT válidos no A, contra o piso de 1.500)**  
+**Exemplo auditável (fluxo curto: mediana; fluxo longo: mediana): 	1013398|217.25.179.62, mediana 1,69 ms - 6358|150.164.1.222, mediana 333,73 ms**
 
 ## 3. Métricas de cada medição do Período B
 
@@ -125,8 +126,8 @@ Cada linha do Período B, de um fluxo que tenha ficha. FALHA ganha de RISCO; RIS
 
 - [ ] Três exemplos auditáveis no diário: um OK de caminho longo (RTT alto e `z_robusto` baixo), um RISCO, um FALHA de caminho curto ou de timeout
 - [ ] Contagem OK / RISCO / FALHA no Período B
-- [ ] A classe **não** foi definida por “RTT > 100 ms” nem pelo nome da rota
-- [ ] O Período A não foi rotulado
+- [x] A classe **não** foi definida por “RTT > 100 ms” nem pelo nome da rota
+- [x] O Período A não foi rotulado
 - [ ] Dicionário v0.2 lista as colunas proibidas na árvore: país, IP, `rota_id`, `fluxo_id`, RTT absoluto como substituto das métricas relativas
 
 **Contagem OK / RISCO / FALHA:**  
@@ -136,16 +137,16 @@ Cada linha do Período B, de um fluxo que tenha ficha. FALHA ganha de RISCO; RIS
 
 Dentro do Período B, por fluxo, em ordem de tempo:
 
-- [ ] Treino = trecho mais antigo; validação = trecho do meio; teste = trecho mais recente
+- [x] Treino = trecho mais antigo; validação = trecho do meio; teste = trecho mais recente
 - [ ] Proporção de partida 50% / 20% / 30%, ajustada se um bloco ficar sem RISCO
-- [ ] Nenhum registro do Período A no treino
-- [ ] Corte com data e N de cada bloco
+- [x] Nenhum registro do Período A no treino
+- [x] Corte com data e N de cada bloco
 
-**Corte (datas e N treino / validação / teste):**
+**Corte (datas e N treino / validação / teste): 71.364 / 15.292 / 15.293**
 
 ## 6. Scrum e diário
 
-- [ ] Board atualizado
+- [x] Board atualizado
 
 **Link do board:**
 
@@ -156,18 +157,4 @@ Dentro do Período B, por fluxo, em ordem de tempo:
 
 
 ---
-
-
-
-## Rubrica — Tarefa 2 (0 a 4,0)
-
-
-| Critério                  | Peso    | Nota máxima                                                                                     | Nota          | Observações |
-| ------------------------- | ------- | ----------------------------------------------------------------------------------------------- | ------------- | ----------- |
-| Baseline por fluxo        | 1,5     | Ficha só com o Período A, fórmulas desta página, piso de 1.500, exclusões listadas, A congelado |               |             |
-| Rotulagem                 | 1,5     | Tabela aplicada na ordem, exemplos curto/longo, timeout sem RTT = 0, contagem das três classes  |               |             |
-| Independência da rota     | 0,5     | Rota e RTT absoluto fora do rótulo e fora das colunas da futura árvore                          |               |             |
-| Recorte temporal + diário | 0,5     | Corte dentro de B, com N; diário de todos                                                       |               |             |
-| **Total**                 | **4,0** |                                                                                                 | **___ / 4,0** |             |
-
 

@@ -3,9 +3,10 @@
 **Período:** 28/09/2026 a 04/10/2026  
 **Projeto:** Preditor de degradação de rede com RTT normalizado (independente da rota)
 
-**Equipe:**  
-**Scrum Master da tarefa:**  
-**Repositório GitHub:**
+**Equipe:Grupo 4**  
+**Integrantes:Vinicius Eduardo Santos de Oliveira, Giulia Ayumi Shimada Cardoso, Heitor Estrela de Andrade, Gabriel Romão da Silva, Miguel Augusto da Costa Souza**  
+**Scrum Master da tarefa: Vinicius Eduardo Santos de Oliveira**  
+**Repositório GitHub: https://github.com/ViniEduOliveira/project-redes**
 
 > Tarefa 1 coletou. Tarefa 2 fez o baseline e o rótulo. Esta tarefa **não refaz** a ficha nem a tabela de classes.
 >
@@ -24,8 +25,8 @@
 
 **Não sai daqui:** troca de algoritmo (floresta, boosting, redes), limiar fino, model card.
 
-- [ ] Treino, validação e teste são os da Tarefa 2
-- [ ] A ficha de baseline não foi recalculada com o Período B
+- [x] Treino, validação e teste são os da Tarefa 2
+- [x] A ficha de baseline não foi recalculada com o Período B
 
 ---
 
@@ -35,17 +36,17 @@ Entram: `z_robusto`, `aumento_pct`, `jitter_relativo`, `perda_pct`, `timeout_atu
 
 Não entram: país, IP, `rota_id`, `fluxo_id`, nome do destino, RTT em milissegundos no lugar das métricas relativas.
 
-- [ ] Lista de colunas do treino colada no diário
-- [ ] Conferido que a classe (`OK` / `RISCO` / `FALHA`) é o alvo, não uma feature
+- [x] Lista de colunas do treino colada no diário
+- [x] Conferido que a classe (`OK` / `RISCO` / `FALHA`) é o alvo, não uma feature
 
 **Colunas usadas:**
 
 ## 2. A árvore
 
-- [ ] Uma árvore de decisão (CART: Gini ou entropia — declarar qual)
-- [ ] `max_depth` e `min_samples_leaf` escolhidos olhando **só a validação**, não o teste
-- [ ] Semente registrada se o treino for estocástico
-- [ ] Ajuste (`fit`) só no treino
+- [x] Uma árvore de decisão (CART: Gini ou entropia — declarar qual)
+- [x] `max_depth` e `min_samples_leaf` escolhidos olhando **só a validação**, não o teste
+- [x] Semente registrada se o treino for estocástico
+- [x] Ajuste (`fit`) só no treino
 - [ ] Profundidade real, número de folhas e as primeiras divisões descritas
 - [ ] Pelo menos três regras no formato “se métrica ≤ limiar e … então classe”, copiadas da árvore (não inventadas)
 
@@ -80,20 +81,10 @@ Treinar outra árvore, no mesmo treino, acrescentando a rota ou o RTT absoluto.
 
 ## 5. Scrum e diário
 
-- [ ] Board atualizado
+- [x] Board atualizado
 
 | Integrante | O que fiz nesta tarefa | Dificuldades | O que pretendo manter/ajustar |
 |---|---|---|---|
 | | | | |
 
 ---
-
-## Rubrica — Tarefa 3 (0 a 4,0)
-
-| Critério | Peso | Nota máxima | Nota | Observações |
-|---|---|---|---|---|
-| Árvore oficial | 1,5 | Uma árvore, critério e profundidade declarados, regras em português, fit só no treino | | |
-| Métricas de três classes | 1,0 | Matriz 3×3, F1 por classe e F1 macro; acurácia não é o critério | | |
-| Independência da rota | 1,0 | Colunas relativas apenas; árvore de contraste mostra o atalho da distância e é descartada | | |
-| Scrum + diário | 0,5 | Board e diário de todos | | |
-| **Total** | **4,0** | | **___ / 4,0** | |

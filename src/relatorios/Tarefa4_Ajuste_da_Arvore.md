@@ -3,9 +3,10 @@
 **Período:** 05/10/2026 a 11/10/2026  
 **Projeto:** Preditor de degradação de rede com RTT normalizado (independente da rota)
 
-**Equipe:**  
-**Scrum Master da tarefa:**  
-**Repositório GitHub:**
+**Equipe:Grupo 4**  
+**Integrantes:Vinicius Eduardo Santos de Oliveira, Giulia Ayumi Shimada Cardoso, Heitor Estrela de Andrade, Gabriel Romão da Silva, Miguel Augusto da Costa Souza**  
+**Scrum Master da tarefa: Vinicius Eduardo Santos de Oliveira**  
+**Repositório GitHub: https://github.com/ViniEduOliveira/project-redes**
 
 > O rótulo e o baseline da Tarefa 2 continuam. O corte temporal continua. Esta tarefa **não troca o algoritmo**: ajusta a mesma árvore de decisão com o que a Tarefa 3 errou.
 >
@@ -81,12 +82,3 @@
 
 ---
 
-## Rubrica — Tarefa 4 (0 a 4,0)
-
-| Critério | Peso | Nota máxima | Nota | Observações |
-|---|---|---|---|---|
-| Ajuste ligado ao erro | 1,5 | Cada mudança da árvore cita um erro da Tarefa 3; continua árvore de decisão | | |
-| Rota fora do modelo | 1,0 | Nenhuma coluna de rota, país, IP ou RTT absoluto; baseline da Tarefa 2 intacto | | |
-| Tabela Tarefa 3 → Tarefa 4 | 1,0 | F1 macro e recall de FALHA e de RISCO na validação, com leitura | | |
-| Revisão + diário | 0,5 | Incremento mostrado ao docente; diário de todos | | |
-| **Total** | **4,0** | | **___ / 4,0** | |
