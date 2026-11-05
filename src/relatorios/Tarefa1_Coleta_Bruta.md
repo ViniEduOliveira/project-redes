@@ -104,10 +104,20 @@ Regras da coleta:
 
 ## 5. Diário de bordo
 
+
 | Integrante | O que fiz nesta tarefa | Dificuldades | O que pretendo manter/ajustar |
 |---|---|---|---|
 
-| [Miguel Augusto da Costa Souza] | Adicionei ao projeto os arquivos que faltavam (organizei as tarefas na pasta `Tarefas`) e preenchi o diário da Tarefa 1 com as informações que o grupo tinha disponíveis no repositório. O que não existia ou não pôde ser confirmado, deixei em branco em vez de inventar. | Entender o que o diário pedia e o que era da Tarefa 1 e o que era das tarefas seguintes. | Manter o diário preenchido só com o que dá para comprovar. Ajustar a coleta para a próxima entrega: adicionar o `requirements.txt` |
+
+| Vinicius Eduardo Santos de Oliveira | Fiquei responsável pelo gerenciamento da equipe e participei do desenvolvimento dos códigos de coleta e organização dos dados. | Organizar as atividades da equipe e garantir que a coleta dos dados funcionasse corretamente. | Manter a organização da equipe e melhorar a divisão das atividades. |
+
+| Heitor Estrela de Andrade | Trabalhei principalmente no desenvolvimento dos códigos responsáveis pela coleta e processamento dos dados do RIPE Atlas. | Entender o funcionamento da API e organizar corretamente a grande quantidade de dados coletados. | Continuar aprimorando os códigos e melhorar a eficiência do processamento. |
+
+| Giulia Ayumi Shimada Cardoso | Auxiliei no desenvolvimento dos códigos do projeto e na organização das informações coletadas. | Compreender a estrutura dos dados e garantir que fossem processados corretamente. | Continuar colaborando com a programação e melhorar a organização dos códigos. |
+
+| Miguel Augusto da Costa Souza | Fiquei responsável pela documentação do projeto, organizando os arquivos das tarefas e preenchendo o diário. Também realizei testes para verificar o funcionamento dos códigos. | Entender o que precisava ser documentado e acompanhar o funcionamento dos códigos. | Manter a documentação atualizada e continuar realizando testes. |
+
+| Gabriel Romão da Silva | Auxiliei na elaboração e organização dos documentos do projeto e realizei testes para verificar o funcionamento dos códigos. | Compreender o funcionamento dos códigos para conseguir identificar possíveis erros durante os testes. | Continuar contribuindo com a documentação e os testes. |
 
 ## 6. Evidências gerais
 

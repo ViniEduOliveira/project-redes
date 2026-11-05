@@ -85,6 +85,16 @@ Treinar outra árvore, no mesmo treino, acrescentando a rota ou o RTT absoluto.
 
 | Integrante | O que fiz nesta tarefa | Dificuldades | O que pretendo manter/ajustar |
 |---|---|---|---|
-| | | | |
+
+
+| Vinicius Eduardo Santos de Oliveira | Fiquei responsável pelo gerenciamento da equipe e participei do desenvolvimento do código de treinamento da primeira árvore de decisão. | Definir os parâmetros da árvore e garantir que o treinamento utilizasse os dados corretos. | Manter a organização da equipe e buscar melhorias no modelo. |
+
+| Heitor Estrela de Andrade | Trabalhei principalmente no desenvolvimento do código da árvore de decisão, auxiliando na configuração dos parâmetros de treinamento. | Entender como os parâmetros influenciavam os resultados e encontrar uma configuração adequada. | Continuar aprimorando o código e melhorar o desempenho da árvore. |
+
+| Giulia Ayumi Shimada Cardoso | Participei do desenvolvimento dos códigos relacionados ao treinamento da árvore de decisão e auxiliei na análise dos resultados. | Entender como a árvore utilizava as métricas para classificar os dados. | Continuar colaborando na programação e na análise dos resultados. |
+
+| Miguel Augusto da Costa Souza | Fiquei responsável pela documentação da tarefa, registrando as informações sobre a primeira árvore de decisão e seus resultados. Também realizei testes para verificar o funcionamento dos códigos. | Interpretar os resultados da árvore e identificar quais informações deveriam ser registradas na documentação. | Manter os documentos organizados e continuar realizando testes. |
+
+| Gabriel Romão da Silva | Auxiliei na documentação da primeira árvore de decisão e realizei testes para verificar o funcionamento dos códigos e as classificações geradas. | Compreender os resultados da validação e identificar possíveis erros do modelo. | Continuar auxiliando na documentação e nos testes. |
 
 ---

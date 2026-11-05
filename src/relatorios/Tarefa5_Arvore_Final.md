@@ -92,9 +92,20 @@ Separar um ou mais `fluxo_id` inteiros que não estejam no treino. A ficha desse
 
 - [x] Board atualizado
 
+
 | Integrante | O que fiz nesta tarefa | Dificuldades | O que pretendo manter/ajustar |
 |---|---|---|---|
-| | | | |
+
+
+| Vinicius Eduardo Santos de Oliveira | Fiquei responsável pelo gerenciamento da equipe e participei do desenvolvimento e da finalização dos códigos da árvore de decisão, acompanhando a execução do teste final. | Garantir que o modelo final utilizasse os parâmetros definidos anteriormente e que o teste fosse realizado corretamente. | Manter a organização da equipe e melhorar a estrutura dos códigos em projetos futuros. |
+
+| Heitor Estrela de Andrade | Trabalhei principalmente na finalização dos códigos da árvore de decisão e na execução do teste final com os dados separados para avaliação. | Garantir que o modelo funcionasse corretamente com os dados de teste e interpretar os resultados obtidos. | Continuar aprimorando minhas habilidades de programação e melhorar a eficiência dos códigos. |
+
+| Giulia Ayumi Shimada Cardoso | Participei da finalização e revisão dos códigos do projeto, auxiliando na execução da árvore de decisão e na verificação dos resultados finais. | Compreender as limitações do modelo e analisar os resultados obtidos. | Continuar participando do desenvolvimento dos códigos e melhorar a análise dos resultados. |
+
+| Miguel Augusto da Costa Souza | Fiquei responsável pela documentação final do projeto, organizando as informações sobre a árvore, seus parâmetros e os resultados do teste. Também realizei testes para verificar o funcionamento dos códigos. | Reunir as informações das tarefas anteriores e organizar uma documentação completa e coerente. | Manter a documentação organizada e continuar realizando testes para conferir os resultados. |
+
+| Gabriel Romão da Silva | Auxiliei na elaboração e revisão da documentação final, organizando os resultados obtidos pelo modelo. Também participei dos testes de funcionamento dos códigos. | Reunir as informações das etapas anteriores e garantir que a documentação representasse corretamente os resultados do projeto. | Continuar contribuindo com a documentação e os testes, mantendo atenção à clareza das informações. |
 
 ---
 

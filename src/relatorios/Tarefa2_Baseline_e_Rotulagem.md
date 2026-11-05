@@ -152,9 +152,17 @@ Dentro do Período B, por fluxo, em ordem de tempo:
 
 
 | Integrante | O que fiz nesta tarefa | Dificuldades | O que pretendo manter/ajustar |
-| ---------- | ---------------------- | ------------ | ----------------------------- |
-|            |                        |              |                               |
+|---|---|---|---|
 
+
+| Vinicius Eduardo Santos de Oliveira | Continuei responsável pelo gerenciamento da equipe e participei do desenvolvimento dos códigos utilizados para calcular o baseline e organizar as métricas. | Garantir que os cálculos fossem realizados corretamente e que os períodos fossem utilizados adequadamente. | Manter a organização da equipe e melhorar os códigos para as próximas etapas. |
+
+| Heitor Estrela de Andrade | Trabalhei principalmente na programação dos cálculos das métricas relativas ao baseline e no processamento dos dados. | Implementar corretamente os cálculos de mediana, MAD e demais métricas. | Continuar aprimorando os códigos e garantir maior precisão nos cálculos. |
+| Giulia Ayumi Shimada Cardoso | Auxiliei no desenvolvimento dos códigos responsáveis pelo processamento dos dados e pela aplicação das regras de classificação em OK, RISCO e FALHA. | Entender a lógica das regras de classificação e garantir que fossem aplicadas corretamente. | Continuar participando do desenvolvimento dos códigos e melhorar a validação dos resultados. |
+
+| Miguel Augusto da Costa Souza | Fiquei responsável pela documentação da tarefa, registrando os procedimentos utilizados no cálculo do baseline e na rotulagem. Também realizei testes para conferir os resultados dos códigos. | Compreender as métricas utilizadas e verificar se os resultados correspondiam às regras estabelecidas. | Continuar documentando cada etapa e realizar testes para identificar inconsistências. |
+
+| Gabriel Romão da Silva | Auxiliei na documentação dos procedimentos e na realização de testes para verificar se os dados estavam sendo processados e classificados corretamente. | Conferir se as classificações estavam seguindo os critérios estabelecidos. | Continuar ajudando na documentação e nos testes, verificando os resultados gerados. |
 
 ---
 
